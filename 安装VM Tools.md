@@ -21,4 +21,4 @@ shell#: ./VMware-install.pl
 
 我安装时执行截图
 --------------
-![](./01.png 'VMtools安装')
+![](https://github.com/coding1618/Kali-Linux-Demo/blob/master/img/2018-05-06_173349.png?raw=true'VMtools安装')
