@@ -18,3 +18,7 @@ shell#: tar zxvf VMwareTools.tar.gz
 shell#: ./VMware-install.pl
 ```
 >执行命令完成之后重启虚拟机
+
+我安装时执行截图
+--------------
+![](./01.png 'VMtools安装')
