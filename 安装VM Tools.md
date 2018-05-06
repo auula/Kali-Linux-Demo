@@ -51,3 +51,8 @@ apt-get install open-vm-tools-desktop fuse
 
 >PS：可以通过系统编辑器来编辑源配置文件
 ![](https://github.com/coding1618/Kali-Linux-Demo/blob/master/img/2018-05-06_182132.png?raw=true'kali更新源')
+
+
+安装成功后效果预览
+------------------
+![](https://github.com/coding1618/Kali-Linux-Demo/blob/master/img/2018-05-06_185130.png?raw=true'kalilinux')
