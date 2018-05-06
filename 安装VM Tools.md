@@ -4,7 +4,7 @@
   </a>
 </p>
 
-安装VM Tools
+安装VM Tools（传统版）
 ===========
 >by：codin
 >2018年5月6日16:11:59
@@ -17,8 +17,34 @@
 shell#: tar zxvf VMwareTools.tar.gz
 shell#: ./VMware-install.pl
 ```
->执行命令完成之后重启虚拟机
+>一路yes！执行命令完成之后重启虚拟机
 
-我安装时执行截图
+我安装时执行截图(传统方式)
 --------------
 ![](https://github.com/coding1618/Kali-Linux-Demo/blob/master/img/2018-05-06_173349.png?raw=true'VMtools安装')
+
+
+安装Open-VM-tools
+=================
+>传统的vmtools已经被抛弃，VMware Workstation自带的vmware-tools安装后仍然不能相互复制文件，现在建议使用Open-VM-tools。
+
+修改源
+------
+```shell
+vi /etc/apt/sources.list
+#中科大更新源
+deb http://mirrors.ustc.edu.cn/kali kali-rolling main non-free contrib
+deb-src http://mirrors.ustc.edu.cn/kali/ kali-rolling main contrib non-free
+
+#阿里云更新源
+deb http://mirrors.aliyun.com/kali kali-rolling main non-free contrib 
+deb-src http://mirrors.aliyun.com/kali kali-rolling main non-free contrib 
+deb http://mirrors.aliyun.com/kali-security kali-rolling main contrib non-free
+
+注意文件中的“kaili-rolling”
+
+apt-get install open-vm-tools-desktop fuse
+
+```
+按提示安装后重启即可。
+---------------------
