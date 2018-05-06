@@ -48,3 +48,5 @@ apt-get install open-vm-tools-desktop fuse
 ```
 按提示安装后重启即可。
 ---------------------
+
+##PS：可以通过系统编辑器来编辑源配置文件
